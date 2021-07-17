@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/220d68b2e1.js" crossorigin="anonymous"></script>
+    <title>Smartshop</title>
+    <style>
+        body {
+            background-color: gainsboro;
+        }
+
+        .cntnr1 {
+            border: 5px solid olivedrab;
+            border-radius: 40px;
+            display: flex;
+            justify-content: space-between;
+            height: 40px;
+            margin-top: 0px;
+            cursor: pointer;
+        }
+
+        .cntnr2 {
+            margin: 7px 10px;
+            font-size: 22px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color: red;
+
+        }
+
+        #ty {
+            margin-left: 20px;
+        }
+
+        #hy {
+            margin-right: 20px;
+        }
+
+        .cntnr1:hover {
+            background-color: olivedrab;
+        }
+
+        .nm {
+            margin-top: 5px;
+            display: flex;
+            justify-content: space-between;
+
+        }
+
+        .ntg {
+            margin: -5px 100px;
+            display: flex;
+        }
+
+        .ntg2 {
+            margin: 4px 5px;
+            font-family: cursive;
+            cursor: pointer;
+        }
+
+        .ntg3 {
+            margin: 6px 20px;
+            font-family: cursive;
+            cursor: pointer;
+        }
+
+        .ntg i {
+            margin: 9px 0px;
+            padding-left: 5px;
+        }
+
+        #fas {
+            margin-left: 15px;
+        }
+
+        #home {
+            margin-right: -17px;
+        }
+
+        #aboutus {
+            margin-right: 5px;
+            margin-left: 4px;
+        }
+
+        .ntg3:hover {
+            color: olivedrab;
+        }
+
+        i {
+            cursor: pointer;
+        }
+
+        i:hover {
+            color: olivedrab;
+        }
+
+        .ntg2:hover {
+            color: olivedrab;
+        }
+
+        .eshan {
+            height: 350px;
+            display: flex;
+        }
+
+        .emon {
+
+            height: 350px;
+            width: 40%;
+        }
+
+        #ourproduct {
+            width: 74%;
+            background-image: url(cheerful-happy-woman-enjoying-shopping-260nw-1417347668.jpg);
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+
+        .eshan i {
+            font-size: 100px;
+            margin-top: 35px;
+            margin-left: 650px;
+            color: white;
+        }
+
+        .smrt {
+            font-size: 40px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin-left: 598px;
+            cursor: pointer;
+            color: white;
+            border-bottom: 5px solid white;
+            width: 203px;
+            height: 60px;
+        }
+
+        .buy {
+            font-size: 25px;
+            font-family: cursive;
+            margin-left: 600px;
+            margin-top: 24px;
+            color: white;
+            cursor: pointer;
+        }
+
+        .buy:hover {
+            color: teal;
+        }
+
+        #smartshop {
+            text-align: center;
+            font-size: 30px;
+            font-family: fantasy;
+        }
+
+        .digan {
+            width: 342px;
+        }
+
+        .shirts {
+            font-size: 28px;
+            font-family: serif;
+            text-align: left;
+            padding-left: 10px;
+            cursor: pointer;
+            border-bottom: 1px solid teal;
+            border-left: 3px solid teal;
+        }
+
+        .shirts:hover {
+            background-color: teal;
+        }
+
+        .bags {
+            height: 480px;
+            width: 100%;
+            margin-top: 10px;
+
+        }
+        #gg{
+            border: 2px solid teal;
+            border-radius: 30px;
+            height: 40px;
+            padding-top: 13px;
+            padding-left: 20px;
+            font-size: 25px;
+            font-family: fantasy;
+            width: 134px;
+            background-color: teal;
+            color: white;
+            cursor: pointer;
+        }
+        .bagpic{
+            height: 450px;
+            display: flex;
+            justify-content: space-around;
+        }
+        .pht{
+            border: 5px solid white;
+            border-radius: 20px;
+            width: 20%;
+            height: 390px;
+            margin-top: 20px;
+            background-color: white;
+            cursor: pointer;
+        }
+        .pht:hover{
+            border: 5px solid teal;
+        }
+        .pht img{
+            width: 90%;
+            height: 70%;
+            margin: 10px 10px;
+        }
+        #gg:hover{
+            border: 2px solid rgb(0, 189, 189);
+            background-color: rgb(0, 189, 189);
+        }
+        .price{
+            padding-left: 10px;
+            font-family: cursive;
+            font-size: 12px;
+        }
+        #add{
+            text-align: center;
+            padding: 0px 10px;
+            border: 2px solid teal;
+            border-radius: 10px;
+            width: 91px;
+            margin: auto;
+            margin-top: 7px;
+            background-color: teal;
+            color: white;
+            
+        }
+        #add:hover{
+            background-color: rgb(0, 192, 192);
+        }
+        .sclbag{
+            font-size: 20px;
+            font-family: fantasy;
+            text-align: center;
+        }
+        .show{
+            border: 2px solid teal;
+            border-radius: 20px;
+            width: 100px;
+            padding: 10px 10px;
+            margin: 0px auto;
+            text-align: center;
+            font-family: fantasy;
+            font-size: 20px;
+            background-color: teal;
+            color: white;
+            cursor: pointer;
+        }
+        .show:hover{
+background-color: rgb(0, 184, 184);
+border-color: rgb(0, 184, 184);
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="cntnr1">
+            <div class="cntnr2" id="ty">!!!Sale!!!</div>
+            <div class="cntnr2">!!!Sale!!!</div>
+            <div class="cntnr2" id="hy">!!!Sale!!!</div>
+        </div>
+        <div class="nm">
+            <div class="ntg">
+                <i class="fas fa-phone-alt"></i>
+                <div class="ntg2">01840173312</div>
+                <i class="fas fa-envelope" id="fas"></i>
+                <div class="ntg2">eshanhasan2580@gmail.com</div>
+            </div>
+            <div class="ntg">
+                <i class="fas fa-home" id="home"></i>
+                <div class="ntg3">Home</div>
+                <i class="fas fa-address-card"></i>
+                <div class="ntg3" id="aboutus">About Us</div>
+            </div>
+        </div>
+    </nav>
+    <div class="eshan">
+        <div class="emon" id="ourproduct">
+            <i class="fab fa-shopify" id="shop"></i>
+            <div class="smrt">Smart Shop</div>
+            <div class="buy">Buy Your Dreams</div>
+        </div>
+        <div class="digan" id="smartshop">Our Products
+            <div class="shirts">-Shirts</div>
+            <div class="shirts">-Shirts</div>
+            <div class="shirts">-Shirts</div>
+            <div class="shirts">-Shirts</div>
+            <div class="shirts">-Shirts</div>
+            <div class="shirts">-Shirts</div>
+            <div class="shirts">-Shirts</div>
+            <div class="shirts">-Shirts</div>
+            <div class="shirts">-Shirts</div>
+        </div>
+    </div>
+    <div class="bags">
+        <div id="gg">Bag Sector</div>
+        <div class="bagpic">
+            <div class="pht">
+                <img src="school-bag-png-11553994322te60qiejy4.png" alt="">
+                <div class="sclbag">Apex School Bag</div>
+                <div class="price">Price - 3000/=</div>
+                <div class="price">Warranty - 3 Years</div>
+                <div id="add">Add to Cart</div>
+            </div>
+            <div class="pht">
+                <img src="school-bag-png-11553994322te60qiejy4.png" alt="">
+                <div class="sclbag">Apex School Bag</div>
+                <div class="price">Price - 3000/=</div>
+                <div class="price">Warranty - 3 Years</div>
+                <div id="add">Add to Cart</div>
+            </div>
+            <div class="pht">
+                <img src="school-bag-png-11553994322te60qiejy4.png" alt="">
+                <div class="sclbag">Apex School Bag</div>
+                <div class="price">Price - 3000/=</div>
+                <div class="price">Warranty - 3 Years</div>
+                <div id="add">Add to Cart</div>
+            </div>
+            <div class="pht">
+                <img src="school-bag-png-11553994322te60qiejy4.png" alt="">
+                <div class="sclbag">Apex School Bag</div>
+                <div class="price">Price - 3000/=</div>
+                <div class="price">Warranty - 3 Years</div>
+                <div id="add">Add to Cart</div>
+            </div>
+        </div>
+        <div class="show">Show More</div>
+    </div>
+
+
+</html>
